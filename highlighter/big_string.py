@@ -16,7 +16,7 @@ class Parser(object):
 	def __init__(self):
 		self.lookFor= 'up' # the gap we lookin for while iteration
 		# min sup
-		self.minSup= 10
+		self.minSup= 30
 		# list conctains all intervals
 		self.blocks= []
 		# list return
